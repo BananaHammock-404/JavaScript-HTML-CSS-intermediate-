@@ -1,0 +1,57 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #88d5e9;
+    color: #333;
+    font-family: 'calibri',sans-serif;
+    font-weight: 400;
+}
+
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+
+
+button{
+    display: block;
+    border: none;
+    color: #fff;
+    background: #6cc3d8;
+    font-size: 2rem;
+    margin: 1rem auto;
+    padding: 0.5rem, 0.1.25rem;
+    border-radius: 8px;
+    outline: none;
+}
+
+button:hover{
+    color: #ffd000;
+    opacity: 0.0;
+}
+
+
+input[type=text]{
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 3px solid #88d5e9;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+input[type=text]:focus{
+    box-shadow: 0, 0, 10px #88d5e9;
+}
+
+#messageOut{
+    margin: 0.5rem 0;
+    color: #88d5e9;
+
+}
